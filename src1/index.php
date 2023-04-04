@@ -20,5 +20,8 @@ if (1==1){
         print "<p>you are authenticated!</p>";
     }
     echo "/<h1>$total_stock</h1>";
-}
+    echo '/<h1>1==1</h1>';
+    $sirName = 'this is the man';
+    $lastName = $sirName . " is called alfred";
+} echo "<h1>$lastName</h1>";
 ?>
