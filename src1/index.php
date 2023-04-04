@@ -8,6 +8,8 @@
 require "variable.php";
 require "_is_auth.php";
 require "operators.php";
+require "conditionals.php";
+require "forloops.php";
 
 echo "<h1>PHP is realy hard</h1>";
 echo "<h2>Hello  World<h2>";
@@ -24,4 +26,17 @@ if (1==1){
     $sirName = 'this is the man';
     $lastName = $sirName . " is called alfred";
 } echo "<h1>$lastName</h1>";
+
+if ($firstNumber != $secondNumber){
+    echo "/<h2> This is a statement stating that they are not equal</h2>";
+}
+else {
+    echo "/<h2> This is a statement stating that they are equal</h2>";
+   
+}
+
+
+for ($i = 0; $i < 10; $i++){
+    echo " this will run ". $i;
+}
 ?>
