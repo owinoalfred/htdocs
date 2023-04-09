@@ -9,5 +9,17 @@ body{
     padding: 50px;
     box-shadow: 10px 10px 5px rgb(238, 178, 188);
     border-radius: 10%;
-
+}
+#btn{
+    color: rgb(235, 163, 175);
+    background-color: whitesmoke;
+    padding: 8px;
+    font-size: medium;
+    border-radius: 15px;
+}
+@media screen and (max-width:200) {
+    #form{
+        width: 65%;
+        padding: 18px;
+    }
 }
