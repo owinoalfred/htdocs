@@ -1,0 +1,9 @@
+body{
+    background-color: pink;
+}
+
+#form{
+    background-color: rgb(240, 197, 204);
+    width: 25%;
+    margin: 120px auto;
+}

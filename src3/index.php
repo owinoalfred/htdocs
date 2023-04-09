@@ -60,9 +60,7 @@ else{
 }
 
 
-$userName = 'alfredowinoistheone';
-$new_array = explode("", $userName);
-echo $new_array;
+echo gettype(10);
 ?>
 
 </body>

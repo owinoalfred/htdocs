@@ -11,5 +11,6 @@ function add(...$numbers){
 
 echo add(33,34,56,75);
 
+$dbconnect = mysqli_connect('databasename', "username", 'password');
 
 ?>
