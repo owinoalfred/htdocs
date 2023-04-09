@@ -1,7 +1,4 @@
-<?php
-include "connection.php";
-?>
-
+<?php include("connection.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +9,8 @@ include "connection.php";
     <title>PHP</title>
 </head>
 <body>
+
+    
     <div id="form">
         <h1>Login Form</h1>
         <form action="" method="post" name="form">
@@ -24,3 +23,4 @@ include "connection.php";
     </div>   
 </body>
 </html>
+

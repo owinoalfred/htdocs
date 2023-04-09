@@ -1,15 +1,15 @@
 <?php
-
 $servername = "localhost";
-$username = "root";
-$password = "root";
-$db_name = "ubuntu_cluster_1";
-$conn = new mysqli($servername, $username, $password, $db_name);
+$username = "man";
+$password = "man";
+$dbName = "ubuntu_cluster_1";
 
-if ($conn->connect_error)
-    die("connection failed".$conn->connect_error);
+// Create connection
+$conn =mysqli_connect($servername, $username, $password, $dbName);
 
-echo "connection Established";
-
-
+// Check connection
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
 ?>
