@@ -6,4 +6,8 @@ body{
     background-color: rgb(240, 197, 204);
     width: 25%;
     margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(238, 178, 188);
+    border-radius: 10%;
+
 }
